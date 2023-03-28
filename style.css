@@ -3784,7 +3784,7 @@ background: linear-gradient(145deg, rgba(21,21,21,1) 0%, rgba(35,33,20,1) 43%, r
 }
 
 .best-rates_img.bm-250 {
-  margin-bottom: 250px
+  margin-bottom: 10vh
 }
 
 .privacy-rtb {
@@ -4252,7 +4252,7 @@ background: linear-gradient(145deg, rgba(21,21,21,1) 0%, rgba(35,33,20,1) 43%, r
 
   .best-rates_img {
     display: block;
-    max-width: 630px;
+    max-width: 100%;
     margin-bottom: 40px
   }
 
