@@ -2352,7 +2352,7 @@ a:hover {
 }
 
 .navbar {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
@@ -3701,8 +3701,9 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30vh;
-  height: 100vh;
+  margin-top: 35vh;
+  height: 100%;
+  width: 80%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -3779,7 +3780,7 @@ background: linear-gradient(145deg, rgba(21,21,21,1) 0%, rgba(35,33,20,1) 43%, r
 }
 
 .best-rates_img {
-  margin-bottom: 500px
+  margin-bottom: 10vh
 }
 
 .best-rates_img.bm-250 {
