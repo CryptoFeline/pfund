@@ -4169,7 +4169,7 @@ background: linear-gradient(145deg, rgba(21,21,21,1) 0%, rgba(35,33,20,1) 43%, r
 
   .cta-wrapper {
     padding-left: 40px;
-    background-size: 500px
+    background-size: 10vh
   }
 
   .cta-btn.copy-address {
