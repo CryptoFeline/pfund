@@ -2332,6 +2332,7 @@ a:hover {
 .section._100vh {
   height: 80vh;
   margin-top: 140px
+  
 }
 
 .container {
@@ -2646,6 +2647,7 @@ a:hover {
 
 .overflow-hidden {
   overflow: visible
+  
 }
 
 .token__hero-section {
@@ -3766,7 +3768,7 @@ a:hover {
 
 .api-sdk_background.black {
   background: rgb(21,21,21);
-background: linear-gradient(145deg, rgba(21,21,21,1) 0%, rgba(35,33,20,1) 43%, rgba(107,96,16,1) 100%);
+  background: linear-gradient(145deg, rgba(21,21,21,1) 0%, rgba(35,33,20,1) 43%, rgba(107,96,16,1) 100%);
   opacity: 1
 }
 
