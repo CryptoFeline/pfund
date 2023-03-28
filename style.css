@@ -3591,9 +3591,9 @@ a:hover {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 6px;
-  background-color: #3f81be;
+  background: linear-gradient(145deg, rgba(21,21,21,1) 0%, rgba(35,33,20,1) 43%, rgba(107,96,16,1) 100%);
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
   text-decoration: none
