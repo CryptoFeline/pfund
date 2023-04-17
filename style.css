@@ -2259,12 +2259,15 @@ a {
   background-color: transparent;
   -webkit-transition: color 350ms cubic-bezier(.25, .46, .45, .94);
   transition: color 350ms cubic-bezier(.25, .46, .45, .94);
-  color: #4e5a6b;
-  text-decoration: underline
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 200ms linear;
 }
 
 a:hover {
-  color: #fff
+	text-decoration: none;
+  color: #000000;
+  filter: drop-shadow( 0 0 10px rgb(210, 185, 21));
 }
 
 .body {
@@ -3599,6 +3602,12 @@ a:hover {
   font-weight: 700;
   text-align: center;
   text-decoration: none
+}
+
+.cta-btn:hover {
+    color: #000000;
+    background: rgb(210, 185, 21);
+    filter: drop-shadow( 0 0 10px rgb(210, 185, 21));
 }
 
 .cta-btn.copy-address {
