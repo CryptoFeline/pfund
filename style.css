@@ -2330,7 +2330,7 @@ a:hover {
 }
 
 .section.tm-105-bm-40._100-vh.bm-150 {
-  margin-bottom: 192px
+  margin-bottom: 10rem
 }
 
 .section._100vh {
@@ -2345,8 +2345,8 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: 30px
-  
+  padding-left: 30px;
+  margin-top: 10rem
 }
 
 .container.relative {
