@@ -4188,7 +4188,8 @@ a:hover {
 
   .cta-wrapper {
     padding-left: 40px;
-    background-size: 10vh
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px)
   }
 
   .cta-btn.copy-address {
