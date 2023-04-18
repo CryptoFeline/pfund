@@ -2211,7 +2211,8 @@ body {
   font-family: Inter, sans-serif;
   color: #999fae;
   font-size: 16px;
-  line-height: 1.4
+  line-height: 1.4;
+  overflow-x: hidden;
 }
 
 .gradient-background {
@@ -2335,8 +2336,7 @@ a:hover {
 
 .section._100vh {
   height: 80vh;
-  margin-top: 140px
-  
+  margin-top: 140px;
 }
 
 .container {
@@ -2346,6 +2346,7 @@ a:hover {
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px
+  
 }
 
 .container.relative {
@@ -2650,7 +2651,7 @@ a:hover {
 }
 
 .overflow-hidden {
-  overflow: visible
+  overflow: hidden;
   
 }
 
@@ -3749,11 +3750,11 @@ a:hover {
 
 .trading-tool-img {
   display: block;
-  max-width: 109%
+  width: 100%
 }
 
 .api-sdk__text-wrapper {
-  max-width: 460px
+  width: 100%
 }
 
 .api-sdk__image-wrapper {
@@ -3779,7 +3780,7 @@ a:hover {
   background-color: #bd263f;
   opacity: .2;
   -webkit-filter: blur(150px);
-  filter: blur(150px)
+  filter: blur(150px);
 }
 
 .api-sdk_background.black {
