@@ -2862,12 +2862,13 @@ a:hover {
   top: 423px;
   right: 0;
   bottom: 0;
-  width: 1120px;
-  height: 1120px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: rgba(51, 0, 74, .5);
   -webkit-filter: blur(400px);
-  filter: blur(400px)
+  filter: blur(400px);
+  overflow: hidden
 }
 
 ._16-120 {
@@ -3309,20 +3310,22 @@ a:hover {
   background-color: #3f81be;
   opacity: .2;
   -webkit-filter: blur(200px);
-  filter: blur(200px)
+  filter: blur(200px);
+  overflow: hidden
 }
 
 .violet-background-circle {
   position: absolute;
   top: 6vw;
   right: 3vw;
-  width: 1120px;
-  height: 1120px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: #33004a;
   opacity: .5;
   -webkit-filter: blur(200px);
-  filter: blur(200px)
+  filter: blur(200px);
+  overflow: hidden
 }
 
 .utility-page-form {
@@ -3425,7 +3428,8 @@ a:hover {
   border-radius: 50%;
   background-image: radial-gradient(circle closest-corner at 50% 50%, #121922, rgba(153, 159, 174, 0));
   -webkit-filter: blur(20px);
-  filter: blur(20px)
+  filter: blur(20px);
+  overflow: hidden
 }
 
 .roadmap__column {
@@ -3657,14 +3661,16 @@ a:hover {
   background-color: #bd263f;
   opacity: .2;
   -webkit-filter: blur(150px);
-  filter: blur(150px)
+  filter: blur(150px);
+  overflow: hidden
 }
 
 .background-circle-red._02 {
   left: auto;
   top: auto;
   right: -90px;
-  bottom: -30px
+  bottom: -30px;
+  overflow: hidden
 }
 
 ._5-7-grid {
@@ -3767,8 +3773,8 @@ a:hover {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 1120px;
-  height: 1120px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: #bd263f;
   opacity: .2;
