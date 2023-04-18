@@ -2335,7 +2335,8 @@ a:hover {
 
 .section._100vh {
   height: 80vh;
-  margin-top: 140px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .container {
@@ -3719,7 +3720,7 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 35vh;
+  margin-top: 5vh;
   height: 100%;
   width: 80%;
   -webkit-box-orient: vertical;
