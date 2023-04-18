@@ -3749,7 +3749,7 @@ a:hover {
 
 .trading-tool-img {
   display: block;
-  width: 100%
+  width: 100vh
 }
 
 .api-sdk__text-wrapper {
