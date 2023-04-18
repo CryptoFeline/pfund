@@ -2212,7 +2212,6 @@ body {
   color: #999fae;
   font-size: 16px;
   line-height: 1.4;
-  overflow-x: hidden;
 }
 
 .gradient-background {
@@ -3847,11 +3846,12 @@ a:hover {
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
-  align-items: flex-start
+  align-items: flex-start;
+  overflow: visible;
 }
 
 .sticky-wrapper._150vh {
-  height: 150vh
+  height: 100%
 }
 
 .sticky-wrapper.new-sticky {
