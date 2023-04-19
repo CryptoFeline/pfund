@@ -3587,11 +3587,11 @@ a:hover {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, .05);
   background-image: url("https://assets.website-files.com/619e597619e2f98fc5b1d35b/61a63c91a2dcd0bce24d90cc_roadmap__graph-transparency.svg");
-  background-position: 100% 50%;
+  background-position: 10% 50%;
   background-size: auto;
   background-repeat: no-repeat;
   -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px)
+  backdrop-filter: blur(40px);
 }
 
 .cta-btn {
